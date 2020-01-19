@@ -1,3 +1,53 @@
+alert("welcome you!");
+
+var welcome = prompt(
+  "are you here for the best french password generator online?"
+);
+
+if (welcome == "yes") {
+  alert("Oui got you then...:D");
+} else if (welcome !== "yes") {
+  alert("psff who are you kidding, you would had left the page by now :P");
+}
+
+var joke = prompt("what did the patient tell the doctor?");
+if (joke !== 1) {
+  alert(
+    "no! that was not the answer! horrible try by the way, not even close to funny, go google the joke"
+  );
+}
+
+var info = confirm(
+  "to best help you out here and find your best fit we need you to pass a test, not everybody can handle a french password generator...are you ready?"
+);
+
+var ques1 = prompt(
+  "what does the french word chocolat translate to in english?"
+);
+
+if (ques1 == "chocolate") {
+  alert(
+    "you are worthy of our service, and don't forget to eat your sweets whenever you feel like having a little sugar rush :D"
+  );
+} else if (ques1 !== "chocolate") {
+  alert("ok you definitely know something I don't know ");
+}
+
+alert(
+  "good now i need you to think of either the number 9, 6 and or 1, just one of those, choose wisely and strongly, and repeat the number three times in your head before clicking ok, while taking three deep breathes... ready? go!"
+);
+
+var guess = prompt("was it 9?");
+if (guess == "yes") {
+  alert(
+    "you are ready to not need a password generator, we suggest you translate your favorite word into french, and add a number between one and nine, if your lazy let us do the work for you with the most powerfull  random password generator online, and enjoy your petite chocolat!!"
+  );
+} else if (guess !== "yes") {
+  alert(
+    "who the chocolate do you think I am, a clarivoyant wizard, well no, now you have been capacitated to make your own password, because we've proven to you that we can't read your mind, good luck!"
+  );
+}
+
 //DOM elements
 const resultEl = document.getElementById("result");
 const lengthEl = document.getElementById("length");
