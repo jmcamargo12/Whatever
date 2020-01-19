@@ -1,5 +1,3 @@
-comfirm("Want the best French Random Password in world");
-
 //DOM elements
 const resultEl = document.getElementById("result");
 const lengthEl = document.getElementById("length");
